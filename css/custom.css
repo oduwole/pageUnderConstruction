@@ -1,0 +1,91 @@
+﻿.btn {
+ 	font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+ 	line-height: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 14px 28px 13px 28px;
+    border:2px solid;
+}
+
+.btn:focus {
+ 	outline: none;
+}
+
+.btn:hover {
+ 	text-decoration: none;
+}
+
+.btn>i {
+    font-size: 15px;
+    margin-right: 5px;
+    vertical-align: text-bottom;
+}
+
+.btn-box {
+    padding:20px 0;
+}
+
+/*------------------------------------------*/
+/*	 Buttons Color
+/*------------------------------------------*/
+.btn-ghost {
+	background: transparent;
+	color: #ffffff;
+	border-color: #ffffff;
+}
+
+.btn-ghost:hover {
+	background: #ffffff;
+	color: #3e3e3e;
+	border-color: #ffffff;
+}
+
+.btn-white {
+	background: #ffffff;
+	color: #c0392b;
+	border-color: #ffffff;
+}
+
+.btn-white:hover {
+    background: #c0392b;
+    color: #3e3e3e;
+    border-color: #c0392b;
+}
+
+.btn-grey {
+	color: #3e3e3e;
+	background-color: transparent;
+	border-color: #7f8c8d;
+}
+
+.btn-grey:hover {
+	color: #3e3e3e;
+	border-color: #3e3e3e;
+	background-color: transparent;
+}
+.lcontainer {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+.gallery {
+        list-style: none;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .gallery li {
+        float: left;
+        margin: 4px;
+    }
